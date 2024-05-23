@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: "Rubik",sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color:#333;
+}
+header{
+    height:10rem;
+    position:fixed;
+    background-color: #fff;
+    width:100%;
+    top:0;
+    bottom:0;
+}
+.main-nav{
+    display:flex;
+    justify-content: space-between;
+    padding:4rem;
+    font-weight: 500;
+
+}
+.nav-left{
+    display:flex;
+}
+.nav-logo{
+    display:flex;
+    gap:0.6rem;
+    font-size:2.2rem;
+    
+}
+.logo-img{
+    height: 2.8rem;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap:5rem;
+    font-size:1.6rem;
+    margin-top: 0.6rem;
+    align-items: center;
+    padding-left: 5rem;
+    
+    
+    
+    
+
+}
+.nav-list-link:link,
+.nav-list-link:visited{
+    display: inline-block;
+    color:#333;
+    text-decoration: none;
+    border:none;
+    
+    
+}
+
+.nav-list-link:hover,
+.nav-list-link:active
+{
+    color: #228be6;
+}
+
+.nav-right{
+    display:flex;
+    gap:1rem;
+    
+
+    
+}
+.nav-btn{
+    background-color: #fff;
+    border:none;
+    font-size: 1.6rem;
+    
+    
+}
+.nav-btn .nav-cta-1:link,
+.nav-btn .nav-cta-1:visited{
+    display:inline-block;
+    text-decoration: none;
+    border:0.2rem solid #e1e1e1;
+    color:#333;
+    padding:1rem;
+    border-radius: 0.8rem;
+    
+    
+}
+.nav-btn .nav-cta-1:hover,
+.nav-btn .nav-cta-1:active{
+    background-color: #eff6fb;
+    transition: all 0.3s ease-in;
+
+}
+.nav-btn .nav-cta-2:link,
+.nav-btn .nav-cta-2:visited{
+    display: inline-block;
+    text-decoration: none;
+    border:0.1rem solid #e1e1e1;
+    color:#fff;
+    padding:1rem;
+    border-radius: 0.8rem;
+    background-color: #0367bd; 
+}
+.nav-btn .nav-cta-2:hover,
+.nav-btn .nav-cta-2:active{
+    background-color: #00305a;
+}
+.nav-btn-link:link,
+.nav-btn-link:visited{
+    display: inline-block;
+    text-decoration: none;
+}
+.nav-btn-link:hover,
+.nav-btn-link:active{
+    color: #228be6;
+}
+
+.section-one{
+    max-width: 130rem;
+    padding-top: 15rem;
+    
+
+}
+
+.section-one-container{
+    max-width: 130rem;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    margin:0 auto;
+    
+    gap:20rem;
+    background:linear-gradient(rgb(220, 245, 255) rgb(131, 212, 255)),url(image/Homepage_blue.jpg);
+
+}
+.section-one-text-box{
+    padding-top:10rem;
+    margin-left:6rem;
+    
+}   
+.section-one-heading{
+    font-size: 6rem;
+    line-height: 1.2;
+    font-weight: 600;
+    margin-bottom:2rem;
+}
+.section-one-description{
+    font-size:2rem;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+    
+}
+.btn-full:link,
+.btn-full:visited{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    background-color:#0367bd;
+    color: #fff;
+    font-size: 1.6rem;
+    padding:1rem 2rem;
+    border-radius: 1rem;
+
+}
+.btn-full:hover,
+.btn-full:active{
+    background-color: #033866;
+}
+.btn-outline:link,
+.btn-outline:visited{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    background-color:#fcfcfc;
+    color: #333;
+    font-size: 1.6rem;
+    padding:1rem 2rem;
+    border-radius: 1rem;
+    border:0.2rem solid #e1e1e1
+}
+.btn-outline:hover,
+.btn-outline:active{
+    background-color: #d9edff;
+}
+.section-one-image-box{
+    width:100%;
+}
+.section-one-image{
+    width: 100%;
+}
+
+.section-two{
+    background-color: #e4f2fe;
+    height:17rem;
+
+}
+.section-two-logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:8rem;
+    padding-bottom: 8rem;
+    gap:16rem;
+    margin-top:8rem;
+    
+
+
+}
+.logo-coleHaan{
+    height: 1.2rem;
+}
+
+.section-four-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap:8rem;
+    margin-left:10rem;
+    margin-right:10rem;
+    
+ 
+}
+.section-four-video{
+   /* border-radius: rem;*/
+    height:40rem;
+}
+
+.section-four-heading{
+    font-size:4rem ;
+  font-weight: 500;
+}
+.section-four-description{
+    font-size: 20px;
+    line-height: 1;
+
+}
+.section-four-link:link,
+.section-four-link:visited{
+    text-decoration: none;
+    color: #228be6;
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+.section-fifth-container{
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    gap:8rem;
+    padding:8rem 14rem;
+    
+}
+.section-fifth-left-text{
+    font-size: 5rem;
+}
+.section-fifth-right-text{
+    font-size:2rem;
+    color:#555;
+}
+
+.section-sixth-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left:4rem;
+}
+.section-sixth-right-box{
+    margin-left:20rem;
+   display:flex;
+   flex-direction:column;
+   gap:4rem;
+   padding-top:2rem;
+   
+    
+
+}
+.section-sixth-drop-down1{
+    padding-top: 24px;
+    border-top: 4px solid #228be6;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border:0.1rem solid #dddddd;
+    border-top:0.6rem solid #228be6;
+    padding-left: 1rem;
+}
+
+.section-sixth-image{
+    width: 120%;
+    border-radius:2rem;
+    
+}
+.section-sixth-heading{
+    font-size: 18px;
+    font-weight: 500;
+    color: #4e4b4b;
+}
+.section-sixth-link:link,
+.section-sixth-link:visited{
+      text-decoration: none;
+      color: #228be6;
+      font-size: 18px;
+
+}
+
+.section-seventh{
+    margin-left: 8rem ;
+    display: flex;
+    gap: 5rem;
+}
